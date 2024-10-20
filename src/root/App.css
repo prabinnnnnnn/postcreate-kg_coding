@@ -1,0 +1,50 @@
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-items{
+  width: 100%;
+}
+
+.sidebar{
+  min-height: 100px;
+}
+
+.card{
+  margin: 20px;
+}
+
+.form{
+  margin: 20px;
+}
+
+.tag{
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.heart{
+  color: #FF3040;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.delete{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.message{
+  margin: 100px 0;
+}
+
+.loader{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
